@@ -1,0 +1,14 @@
+To init Tf 
+terraform init
+
+To Test Terraform 
+terraform plan
+
+to apply 
+terraform apply 
+
+destroy by 
+terraform destroy
+
+to upload zip to our lambda function 
+aws lambda update-function-code --function-name product_lambda --zip-file fileb://product.zip
